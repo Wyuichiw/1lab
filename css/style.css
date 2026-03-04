@@ -1,0 +1,31 @@
+.card {
+    background: rgb(252, 215, 136);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 450px; /* Возвращаем компактную ширину карточке */
+    width: 100%;
+}
+
+/* Возвращаем котику аккуратный размер */
+img {
+    border-radius: 15px;
+    max-width: 100%;
+    height: auto;
+    max-height: 400px; /* Вот он, тот самый ограничитель высоты! */
+    object-fit: contain;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15); /* Оставил легкую тень для красоты */
+}
+.card {
+    background: rgb(252, 215, 136);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 450px;
+    width: 100%;
+    /* ОЦЕЙ РЯДОК ЦЕНТРУЄ КАРТКУ: */
+    margin: 0 auto; 
+}
